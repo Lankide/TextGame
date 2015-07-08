@@ -1,0 +1,31 @@
+{
+  "screens": [
+    {
+      "id": 1,
+      "text": "TEXT ON THE SCREEN1",
+      "answers": [
+          {
+            "text": "answer1",
+            "editableField":{
+              "inputReaction":[
+                {
+                  "inputs":["Mike", "Michael", "Big M"],
+                  "nextScreenId": 2
+                },
+                {
+                  "inputs":["James", "Jay"],
+                  "nextScreenId": 3
+                }
+                ]
+              },
+            "nextScreenId": 4
+          },
+          {
+            "text": "answer2",
+            "nextScreenId": 5
+          }
+        ],
+      "isChapterEnd": false
+    }
+    ]
+}
